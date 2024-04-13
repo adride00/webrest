@@ -10,7 +10,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("POSTGRES_URL")
+  url      = "postgres://fl0user:3CGrLQmn4ZyP@ep-long-meadow-a5jkluh8.us-east-2.aws.neon.fl0.io:5432/desa-todo?sslmode=require"
 }
 
 model todo {
